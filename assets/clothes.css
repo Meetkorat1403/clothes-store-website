@@ -1,0 +1,732 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.first-navbar{
+    padding: 30px 70px 30px 70px;
+    display: flex;
+    font-family: "Euclid Circular A", sans-serif;
+    justify-content: space-between;
+
+}
+
+.logo{
+    font-size: 24px;
+}
+
+.search-bar{
+    padding: 10px 0px 5px 2px;
+    font-size: 15px;
+    width: 260px;
+    border: none;
+    border-bottom: 2px solid #9CA3AF;
+    font-family: "Euclid Circular A", sans-serif;
+    color: #9CA3AF;
+}
+
+a{
+    font-family: "work sans", sans-serif;
+    text-decoration: none;
+    color: #6B7280;
+}
+
+.right-side1{
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    gap: 40px;  
+    font-weight: 500;
+}
+
+.Basket{
+    font-weight: 600;
+}
+
+/* secondnavbar */
+
+.second-navbar{
+    display: flex;
+    padding: 0px 70px 20px 70px;
+    justify-content: space-between;
+    font-weight: 600;
+    line-height: 17px;
+    font-size: 14px;
+}
+
+.fresh{
+    padding: 5px 5px 5px 5px;
+    background: #EB5757;   
+    color: white;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* new arrivals */
+
+.container1{
+    display: flex;
+}
+
+.left-side2{
+    height: 500px;
+    width: 800px;
+    background: #1C2333;
+}
+
+.left{
+    padding: 70px 0px 70px 100px;
+    font-family: "Euclid Circular A", sans-serif;
+}
+
+.first-line{
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 71px;
+    color: white;
+}
+
+.second-line{
+    font-weight: 600;
+    line-height: 90px;
+    font-size: 56px;
+    color: #F7C59F;
+}
+
+.paragraph1{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.button1{
+    height: 35px;
+    width: 210px;
+    background-color: #1C2333;
+    border: 1px solid white;
+    font-size: 15px;
+    color: white;
+}
+
+.aerrow{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.right-side2{
+    background-color: #F7C59F;
+    height: 500px;
+    width: 640px ;
+}
+
+.ledy1{
+    padding: 65px 0px 0px 200px;
+    height: 450px;
+    width: 250px;
+}
+
+.heading1{
+    padding: 100px 0px 25px 0px;
+    text-align: center;
+}
+
+.week{
+    color: #374151;
+    text-decoration: underline;
+    font-family: "Euclid Circular A", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.container2{
+    display: flex;
+    padding: 20px 70px 0px 70px;
+}
+
+.img1{
+    position: relative;
+}
+
+.exclusive-shoes{
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    width: 466px;
+    font-family: "Euclid Circular A",sans-serif;
+    font-size: 60px;
+    position: absolute;
+    bottom: 200px;
+}
+
+.discount1{
+    border: 1px solid #F9FAFB0D;
+    background-color: #0000004D;
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    font-family: "Euclid Circular A",sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+
+.heading2{
+    padding: 7px 0px 0px 5px;
+}
+
+.price{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 7px 0px 0px 5px;
+}
+
+.code1{
+    padding: 25px 0px 5px 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.style-img{
+    padding-left: 10px;
+    width: 733px;
+    height: 506px;
+}
+
+.collection{
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    width: 763px;
+    font-family: "Euclid Circular A",sans-serif;
+    font-size: 60px;
+    position: absolute;
+    bottom: 200px;
+}
+
+.discount2{
+    border: 1px solid #F9FAFB0D;
+    background-color: #0000004D;
+    width: 280px;
+    height: 100px;
+    position: absolute;
+    bottom: 16px;
+    left: 25px;
+    font-family: "Euclid Circular A",sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+
+.heading3{
+    padding: 7px 0px 0px 5px;
+}
+
+.new-arrivals{
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    width: 762px;
+    font-family: "Euclid Circular A",sans-serif;
+    font-size: 60px;
+    position: absolute;
+    bottom: 200px;
+}
+
+.collection{
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    width: 743px;
+    font-family: "Euclid Circular A",sans-serif;
+    font-size: 60px;
+    position: absolute;
+    bottom: 200px;
+}
+
+.discount3{
+    border: 1px solid #F9FAFB0D;
+    background-color: #0000004D;
+    width: 222px;
+    height: 100px;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    font-family: "Euclid Circular A",sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+
+.item-img{
+    width: 437px;
+    height: 506px;
+    padding-left: 10px;
+}
+
+.item{
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    width: 447px;
+    font-family: "Euclid Circular A",sans-serif;
+    font-size: 60px;
+    position: absolute;
+    bottom: 200px;
+}
+
+.heading4{
+    padding: 7px 0px 0px 5px;
+}
+
+.container3{
+    display: flex;
+    padding: 10px 70px 100px 70px;
+}
+
+.discount4{
+    border: 1px solid #F9FAFB0D;
+    background-color: #0000004D;
+    width: 222px;
+    height: 100px;
+    position: absolute;
+    bottom: 16px;
+    left: 25px;
+    font-family: "Euclid Circular A",sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+
+.heading5{
+    color: #374151;
+    font-weight: 600;
+    font-family: "Euclid Circular A",sans-serif;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 50px;
+}
+
+
+.container4{
+    padding: 0px 70px 0px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ledy1-img{
+    width: 250px;
+    height: 300px;
+}
+
+.ledy2-img{
+    width: 250px;
+    height: 300px;
+}
+
+.ledy3-img{
+    width: 250px;
+    height: 300px;
+}
+
+.ledy4-img{
+    width: 250px;
+    height: 300px;
+}
+
+.container5{
+    font-family: "Euclid Circular A", sans-serif;
+    padding: 3px 70px 0px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-1{
+    height: 65px;
+    width: 250px;
+}
+
+.para4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #374151;
+    text-decoration: none;
+}
+
+.text1{
+    justify-content: space-between;
+    display: flex;
+}
+
+.dolor{
+    padding-left: 10px;
+    text-decoration: line-through;
+    color: #6B7280;
+}
+
+.value{
+    font-weight: 600;
+}
+
+.add-basket{
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 17px;
+}
+
+.section2{
+    height: 65px;
+    width: 250px;
+}
+
+.section3{
+    height: 65px;
+    width: 250px;
+}
+
+.section4{
+    height: 65px;
+    width: 250px;
+}
+
+.container6{
+    padding: 100px 70px 0px 70px;
+    text-align: center;
+}
+
+.brands1{
+    color: #374151;
+    font-family: "Euclid Circular A", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    text-decoration: underline;
+}
+
+.all-logo{
+    padding: 30px 100px 100px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container7{
+    padding: 0px 70px 100px 70px;
+}
+
+.bg{
+    width: 1209px;
+    position: relative;
+}
+
+.summer{
+    width: 1209px;
+}
+
+.s-collection{
+    color: #374151;
+    padding-left: 50px;
+    font-weight: 600;
+    width: 631px;
+    font-family: "Euclid Circular A",sans-serif;
+    font-size: 50px;
+    position: absolute;
+    bottom: 300px;
+}
+
+.collection1{
+    color: #EB5757;
+}
+
+.btn1{
+    padding-left: 50px;
+}
+
+.button2{
+    border: none;
+    height: 40px;
+    width: 150px;
+    position: relative;
+    bottom: 250px;
+    font-size: 16px;
+    font-weight: 600;   
+    color: #EB5757;
+}
+
+/* end section */
+
+.end-section-first{
+    background-color: #F9FAFB;
+    padding: 0px 70px 0px 70px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Euclid Circular A",sans-serif;
+}
+
+.compny-info1{
+    padding-top: 50px;
+    width: 150px;
+    height: 250px;
+}
+
+.compny-info2{
+    color: #1F2937;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.About-laura-closet{
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.social-responsibility{
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.affiliate{
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.fashion-blogger{
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+
+.help-support1{
+    padding-top: 50px;
+    width: 180px;
+    height: 250px;
+}
+
+.help-support2{
+    color: #1F2937;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.shipping-info{
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.Returns{
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.how-to-order{
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.how-to-track{
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.size-chart{
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+
+.customercare1{
+    padding-top: 50px;
+    width: 150px;
+    height: 250px
+}
+
+.customer-care2{
+    color: #1F2937;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 600;  
+}
+
+.contect-us{
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.payment{
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.bonus-point{
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.notices{
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+
+.socials1{
+    padding-top: 50px;
+    width: 500px;
+    height: 250px;
+}
+
+.first-line-1{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 600; 
+}
+
+.all-logos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar1{
+    padding-top: 40px;
+}
+
+.p{
+    color: #1F2937;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.f{
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-bar{
+    color: #6B7280;
+    padding-left: 10px;
+    width: 340px;
+    height: 30px;
+    border: 1px solid #9CA3AF;
+}
+
+.subscribe{
+    background-color: #1F2937;
+    color: white;
+    border: none;
+    width: 135px;
+}
+
+.P{
+    color: #6B7280;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.pp{
+    color: blue;
+    text-decoration: underline;
+}
+
+.second-end-section{
+    font-family: "Euclid Circular A",sans-serif;
+    background-color: #F9FAFB;
+    height: 150px;
+    padding: 0px 70px 0px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p1{
+    color: #6B7280;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.line{
+    color: #E5E7EB;
+}
+
+.first-links{
+    color: #6B7280;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.pc{
+    text-decoration: underline;
+}
+
+.second-links{
+    color: #6B7280;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.tc{
+    text-decoration: underline;
+}
+
+.right1{
+    width: 500px;
+}
+
+.we-accept{
+    color: #1F2937;
+    font-weight: 600;
+}
+
+.first-line{
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.second-line2{
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+}
