@@ -1,2 +1,2 @@
 # clothes-store-website
-This website bade by HTML and CSS.
+This project made by HTML and CSS.
